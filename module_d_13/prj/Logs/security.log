@@ -1,0 +1,2 @@
+2024-06-18 22:16:49,018 WARNING log Forbidden (CSRF token missing.): /posts/create/
+2024-06-18 22:24:07,532 WARNING log Forbidden (CSRF token missing.): /posts/create/

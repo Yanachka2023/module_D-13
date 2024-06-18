@@ -1,0 +1,167 @@
+2024-06-18 21:23:59,101 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:23:59,106 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:23:59,480 WARNING Not Found: /favicon.ico C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:23:59,485 WARNING "GET /favicon.ico HTTP/1.1" 404 2637 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:40,144 INFO "GET /admin HTTP/1.1" 301 0 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:40,210 INFO "GET /admin/ HTTP/1.1" 302 0 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:40,294 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:42,137 INFO "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:42,139 INFO "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:42,141 INFO "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:42,149 INFO "GET /static/admin/css/fonts.css HTTP/1.1" 200 423 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:42,151 INFO "GET /static/admin/css/responsive.css HTTP/1.1" 200 18854 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:42,153 INFO "GET /static/admin/css/login.css HTTP/1.1" 200 958 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:42,219 INFO "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:24:42,221 INFO "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:36:42,905 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:36:42,908 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:36:51,424 INFO "GET /posts/ HTTP/1.1" 200 4779 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:36:52,054 INFO "GET /static/css/styles.css HTTP/1.1" 200 236765 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:36:52,144 WARNING Not Found: /posts/assets/favicon.ico C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:36:52,145 WARNING "GET /posts/assets/favicon.ico HTTP/1.1" 404 4391 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:39:44,278 INFO "GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:40:49,362 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:40:49,366 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:41:25,637 INFO "GET /posts/ HTTP/1.1" 200 4779 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:41:34,495 ERROR Internal Server Error: /posts/ C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'article' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, name, postCategory, postcategory, rating, text, title"), <traceback object at 0x00000244316EFE00>)
+Traceback (most recent call last):
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\яна\Desktop\D13\module_d_13\prj\newapp\views.py", line 41, in get_queryset
+    return self.filterset.qs
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filterset.py", line 230, in qs
+    qs = self.filter_queryset(qs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filterset.py", line 213, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filters.py", line 158, in filter
+    qs = self.get_method(qs)(**{lookup: value})
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'article' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, name, postCategory, postcategory, rating, text, title
+2024-06-18 21:41:34,511 ERROR "GET /posts/?title__icontains=%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&categoryType=AR&Date=2024-06-18 HTTP/1.1" 500 141867 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:41:46,389 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:41:46,391 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:47:45,478 ERROR Internal Server Error: /posts/ C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'article' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, name, postCategory, postcategory, rating, text, title"), <traceback object at 0x000001F78DF0DA00>)
+Traceback (most recent call last):
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\яна\Desktop\D13\module_d_13\prj\newapp\views.py", line 41, in get_queryset
+    return self.filterset.qs
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filterset.py", line 230, in qs
+    qs = self.filter_queryset(qs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filterset.py", line 213, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filters.py", line 158, in filter
+    qs = self.get_method(qs)(**{lookup: value})
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'article' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, name, postCategory, postcategory, rating, text, title
+2024-06-18 21:47:45,514 ERROR "GET /posts/?title__icontains=%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&categoryType=AR&Date=2024-06-18 HTTP/1.1" 500 142004 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:48:20,338 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:48:20,340 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:48:33,629 INFO "GET /posts/ HTTP/1.1" 200 4779 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:49:03,671 ERROR Internal Server Error: /posts/ C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py (<class 'django.core.exceptions.FieldError'>, FieldError("Cannot resolve keyword 'article' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, name, postCategory, postcategory, rating, text, title"), <traceback object at 0x000001F78DF6E900>)
+Traceback (most recent call last):
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\generic\list.py", line 154, in get
+    self.object_list = self.get_queryset()
+  File "C:\Users\яна\Desktop\D13\module_d_13\prj\newapp\views.py", line 41, in get_queryset
+    return self.filterset.qs
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filterset.py", line 230, in qs
+    qs = self.filter_queryset(qs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filterset.py", line 213, in filter_queryset
+    queryset = self.filters[name].filter(queryset, value)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django_filters\filters.py", line 158, in filter
+    qs = self.get_method(qs)(**{lookup: value})
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1407, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1217, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\db\models\sql\query.py", line 1709, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'article' into field. Choices are: author, author_id, categoryType, comment, dateCreation, id, name, postCategory, postcategory, rating, text, title
+2024-06-18 21:49:03,702 ERROR "GET /posts/?title__icontains=%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&categoryType=AR&Date=2023-04-24 HTTP/1.1" 500 141867 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:52:34,536 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:52:34,538 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:52:36,545 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:52:36,547 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:52:38,515 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:52:38,517 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:52:53,562 WARNING Not Found: /add C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:52:53,564 WARNING "GET /add HTTP/1.1" 404 2613 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:53:17,928 INFO "GET /post HTTP/1.1" 301 0 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:53:17,999 INFO "GET /post/ HTTP/1.1" 200 4779 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:53:18,124 WARNING Not Found: /post/assets/favicon.ico C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:53:18,126 WARNING "GET /post/assets/favicon.ico HTTP/1.1" 404 4379 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:53:29,646 INFO "GET /post/?title__icontains=%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&categoryType=NW&Date= HTTP/1.1" 200 3345 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:56:10,801 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 21:56:10,804 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:56:18,594 INFO "GET /post/ HTTP/1.1" 200 4779 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 21:56:24,225 INFO "GET /post/?title__icontains=%D0%9E%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&categoryType=NW&Date= HTTP/1.1" 200 3345 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 22:00:27,258 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 22:00:27,260 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 22:00:33,627 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 22:00:33,629 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
+2024-06-18 22:00:35,801 WARNING Not Found: / C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\utils\log.py None
+2024-06-18 22:00:35,803 WARNING "GET / HTTP/1.1" 404 2586 C:\Users\яна\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\servers\basehttp.py None
